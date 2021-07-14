@@ -1,0 +1,208 @@
+/* -------Media Quary For Mobile Responsive Start------- */
+
+@media only screen and (max-width: 688px) {
+
+    .title-h1{
+        margin-bottom: 0;
+    }
+
+    /* -------Header Section------- */
+
+    .header{
+        width: 100%;
+    }
+    .nav-for-pc{
+        display: none;
+    }
+    .nav-for-mobile{
+        margin-left: 20px;
+        display: block;
+        font-size: 35px;
+        color: white;
+    }
+    .login-button{
+        margin-right: 20px;
+    }
+
+
+  /* -------Top Section------- */
+
+    .main-section{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .title-button{
+        margin-left: 20px;
+        width: 90%;
+    }
+    .title-button> h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+ /* -------Top Players Section------- */
+
+    .all-players{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .single-player{
+        margin: 0 20px;
+        max-height: 800px;
+    }
+    .single-player img{
+        width: 100%;
+        height: 60%;
+    }
+
+/* -------Gallery Section------- */
+    
+    .pictures{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .picture{
+        margin-top: 20px;
+        width: 90%;
+        height: 255px;
+        border: 2px solid gray;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* -------Heighlight section------- */
+
+    .highlight-section{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 86px;
+    }
+    .highlight-heading-button{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 0 10px;
+    }
+    .highlight-heading-button h1{
+        font-size: 30px;
+    }
+
+/* -------Footer Section------- */
+
+    .footer-section{
+        padding: 60px 0;
+    }
+    .footer-img img{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px)  {
+
+    .title-h1{
+        margin-bottom: 0;
+    }
+
+    /* -------Header Section------- */
+
+    .header{
+        width: 100%;
+    }
+    .nav-for-pc{
+        display: none;
+    }
+    .nav-for-mobile{
+        margin-left: 20px;
+        display: block;
+        font-size: 35px;
+        color: white;
+    }
+    .login-button{
+        margin-right: 20px;
+    }
+
+
+    /* -------Top Section------- */
+
+    .main-section{
+        width: 95%;
+    }
+    .title-button{
+        width: 40%;
+    }
+    .title-button> h1{
+        font-size: 50px;
+        line-height: 60px;
+        color: white;
+    }
+
+
+    /* -------Top Players Section------- */
+
+    .all-players{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+    }
+    .single-player img{
+        width: 100%;
+        height: 60%;
+    }
+
+    /* -------Gallery Section------- */
+
+    .pictures{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .picture{
+        margin-top: 20px;
+        width: 90%;
+        height: 300px;
+    }
+    .pic-cover img{
+        height: 300px;
+    }
+
+
+    /* -------Heighlight section------- */
+
+    .highlight-section{
+        justify-content: space-between;
+        width: 90%;
+        margin-bottom: 86px;
+    }
+    .highlight-heading-button> h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-heading-button p{
+        margin-top: 8px;
+        font-size: 15px;
+    }
+/* -------Footer Section------- */
+
+.footer-section{
+    padding: 60px 0;
+}
+.footer-img img{
+    width: 80%;
+}
+}
